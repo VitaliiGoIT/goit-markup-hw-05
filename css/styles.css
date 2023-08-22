@@ -467,6 +467,10 @@ img {
     fill: var(--color-light);
 }
 
+.form-container {
+    padding: 5em 0 5em 5em;
+}
+
 .form-name {
     margin-bottom: 16px;
     font-weight: 500;
@@ -499,6 +503,7 @@ img {
 }
 
 .subscribe-button {
+    flex-wrap: wrap;
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -518,6 +523,7 @@ img {
 
 .telegram-icon {
     margin-left: 16px;
+    fill: #ffffff;
 
 }
 
