@@ -814,7 +814,9 @@ img {
     margin-bottom: 24px;
 }
 
-.agreement:checked+.span-privacy {
+input:checked+label>span {}
+
+.agreement:checked+.privacy-label>.span-privacy {
     background-color: var(--kind-of-blue);
     border: none;
     fill: var(--kind-of-blue)
@@ -851,7 +853,7 @@ img {
 
 .form-submit-button {
     margin: 0 auto;
-    display: flex;
+    display: block;
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
