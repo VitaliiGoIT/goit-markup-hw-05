@@ -841,6 +841,10 @@ img {
     fill: transparent;
 }
 
+.form-link {
+    color: var(--text-color);
+}
+
 .checkbox-icon {}
 
 .button-container {}
